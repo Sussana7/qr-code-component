@@ -1,0 +1,56 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Reset default styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and borders don't increase element size */
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.main-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 90%;
+  max-width: 22rem; /* prevents it from getting too wide */
+  height: auto; /* So that it will adjust based on the content */
+  padding: 1rem;
+  margin: 1.5rem auto;
+  border-radius: 0.625rem; /* Equivalent to 10px */
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  width: 17.5rem;
+  max-width: 100%; /* To prevent it from overflowing(It fits into the container) */
+  height: 17.5rem;
+  border-radius: 0.9375rem;
+}
+
+.heading-text {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+
+.paragraph-text {
+  color: hsl(216, 15%, 48%);
+  font-size: 15px;
+  padding-top: 1rem;
+}
